@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace EquinxPictures
+namespace ShotPics
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace EquinxPictures
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new loginPanel());
+            Application.Run(new ShotPics());
         }
     }
 }

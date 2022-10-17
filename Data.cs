@@ -4,15 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EquinxPictures
+namespace ShotPics
 {
     internal class Data
     {
-        public int numberofJPG { get; set; }
+        public int numberofJPG{ get; set; }
         public int numberofPNG { get; set; }
-        public string startupPath { get; set; }
         public string selectedPath { get; set; }
-        public string[] picsJPG { get; set; }
-        public string[] picsPNG { get; set; }
+        public string[] files1 { get; set; }
+        public string[] files2 { get; set; }
     }
 }
